@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+#canvasContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+#interferenceCanvas {
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.legend {
+  margin-top: 8px;
+  font-size: 1em;
+}
+
+.legend .constructive {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: rgba(0,170,255,0.7);
+  border: 1px solid #0af;
+  vertical-align: middle;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.legend .destructive {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: rgba(255,40,40,0.7);
+  border: 1px solid #c00;
+  vertical-align: middle;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
